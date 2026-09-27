@@ -2,6 +2,8 @@
 
 > **Love is - high fps**
 
+Source code is not included in public repository
+
 VOVANHA is a Windows optimization toolkit focused on improving gaming performance, system responsiveness, latency, and overall system efficiency.
 
 The application provides a collection of carefully organized system tweaks that allow users to optimize different parts of Windows from a single, clean interface.
