@@ -28,9 +28,16 @@ The current version includes the core optimization system and a large collection
 
 VOVANHA is still under active development. Some features may be improved, changed, or expanded in future releases.
 
+<img width="1591" height="943" alt="image" src="https://github.com/user-attachments/assets/500f4ed5-e70c-423c-bad7-3f246336fa96" />
+<img width="1584" height="949" alt="image" src="https://github.com/user-attachments/assets/db6a0ebd-f563-4def-941a-c45f78d3f686" />
+
+
+
 ## Installation
 
-Download the latest `VOVANHA-Setup.exe` from the **Releases** section and run the installer.
+## Download
+
+[**Download VOVANHA Beta 0.0.1**](https://github.com/vovnha/vovanha-optimizer/releases)
 
 The installer includes all required application files and dependencies.
 
