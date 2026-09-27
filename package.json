@@ -1,6 +1,6 @@
 {
   "name": "vovanha-performance-optimizer",
-  "version": "8.2.15",
+  "version": "0.0.1",
   "private": true,
   "description": "VOVANHA Build 0.0.1 — Windows performance optimizer",
   "main": "vovanha_main.js",
