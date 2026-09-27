@@ -1,0 +1,75 @@
+{
+  "name": "vovanha-performance-optimizer",
+  "version": "0.0.1",
+  "private": true,
+  "description": "VOVANHA Build 0.0.1 — Windows performance optimizer",
+  "main": "vovanha_main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "npm run obfuscate && electron-builder --win dir --x64 && powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-setup.ps1",
+    "obfuscate": "node scripts/obfuscate-main.cjs"
+  },
+  "devDependencies": {
+    "7zip-bin": "^5.2.0",
+    "electron": "^38.2.0",
+    "electron-builder": "^26.0.12",
+    "javascript-obfuscator": "^5.8.0"
+  },
+  "build": {
+    "appId": "com.vovanha.optimizer",
+    "productName": "VOVANHA",
+    "artifactName": "VOVANHA-${version}-${arch}.${ext}",
+    "files": [
+      "vovanha_v4_reference.html",
+      "vovanha_main_obf.js",
+      "vovanha_preload.js",
+      "package.json",
+      "assets/icon.png",
+      "assets/icon.ico"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "requestedExecutionLevel": "requireAdministrator",
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": false,
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true,
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico",
+      "installerHeaderIcon": "assets/icon.ico",
+      "runAfterFinish": true,
+      "installerSidebar": "assets/installer-sidebar.bmp",
+      "uninstallerSidebar": "assets/installer-sidebar.bmp",
+      "installerLanguages": [
+        "en_US",
+        "ru_RU"
+      ],
+      "shortcutName": "VOVANHA"
+    },
+    "directories": {
+      "output": "dist-v8_2_15"
+    },
+    "extraMetadata": {
+      "main": "vovanha_main_obf.js"
+    },
+    "copyright": "Copyright © 2026 VOVANHA"
+  },
+  "author": "VOVANHA"
+}
