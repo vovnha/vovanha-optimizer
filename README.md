@@ -30,8 +30,10 @@ The current version includes the core optimization system and a large collection
 
 VOVANHA is still under active development. Some features may be improved, changed, or expanded in future releases.
 
-<img width="1591" height="943" alt="image" src="https://github.com/user-attachments/assets/500f4ed5-e70c-423c-bad7-3f246336fa96" />
-<img width="1584" height="949" alt="image" src="https://github.com/user-attachments/assets/db6a0ebd-f563-4def-941a-c45f78d3f686" />
+<img width="1578" height="940" alt="image" src="https://github.com/user-attachments/assets/470d3073-2692-42d8-aacc-9cd69eac0eb0" />
+
+<img width="1573" height="932" alt="image" src="https://github.com/user-attachments/assets/96def911-7991-4cbb-b259-d07bac1c1914" />
+
 
 
 
