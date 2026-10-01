@@ -22,7 +22,7 @@ The application provides a collection of carefully organized system tweaks that 
 - 🌑 Minimalistic dark interface
 - 🇷🇺 Russian localization
 
-## Beta 0.0.1
+## Beta 0.0.2
 
 This is the first public beta release of VOVANHA.
 
@@ -39,7 +39,7 @@ VOVANHA is still under active development. Some features may be improved, change
 
 ## Download
 
-[**Download VOVANHA Beta 0.0.1**](https://github.com/vovnha/vovanha-optimizer/releases)
+[**Download VOVANHA Beta 0.0.2**](https://github.com/vovnha/vovanha-optimizer/releases)
 
 The installer includes all required application files and dependencies.
 
